@@ -1,0 +1,46 @@
+.imageCard {
+    width: 22em;
+    position: relative;
+}
+
+.portfolio__img {
+    width: 100%;
+    height: 15em;
+}
+
+.imageDetails {
+    position: absolute;
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+}
+
+.imageDetail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.imageDetails:hover {
+    opacity: 100%;
+    background: rgba(43, 35, 35, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.portfolio__title,
+.portfolio__date {
+    color: white;
+    font-size: 0.8rem;
+}

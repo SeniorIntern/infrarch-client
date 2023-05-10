@@ -1,0 +1,9 @@
+.portfolio__card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.portfolio {
+    width: 83%;
+    margin: 0 auto;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+#root {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* declare global variables */
+body {
+    --text-color-primary: #062433;
+    --text-color-secondary: #54595f;
+    --text-color: #000000;
+    --text-color-accent: #be1e2d;
+    --text-primary-font-family: 'Questrial';
+    --text-primary-font-weight: 400;
+    --text-secondary-font-family: 'Roboto Slab';
+    --text-secondary-font-weight: 400;
+    --text-font-family: 'Roboto';
+    --text-font-weight: 300;
+    --text-accent-font-family: 'Roboto';
+    --text-accent-font-weight: 500;
+}
+
+.app__container {
+    width: 88%;
+    margin: 3em auto;
+}
+
+.project__Showcase {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1em;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    color: #2b2b2b;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.project__ShowcaseTitle {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    color: #111;
+    font-size: 3rem;
+    line-height: 1.14em;
+    letter-spacing: 0.025em;
+    text-align: center;
+}
+
+.imageDescription {
+    padding-top: 1em;
+    height: 6em;
+    line-height: 1.65em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 1.65em;
+    color: #121212;
+    font-size: 1.2rem;
+}
+
+.Image__title {
+    font-size: 3.7rem;
+    font-weight: 100;
+    padding-top: 0.5em;
+    letter-spacing: 0.04em;
+}
+
+.switch__ImageInfo__button {
+    padding: 1.2em 3.2em;
+    margin-top: 2em;
+    font-weight: 100;
+    background-color: white;
+    border: 0.1em solid black;
+}
+
+.explore {
+    margin-top: 2em;
+    height: 3em;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #919191;
+    cursor: pointer;
+}
+
+.explore > p {
+    margin: 0.8em;
+}

@@ -1,0 +1,38 @@
+.secondSection {
+    margin: 4em 0;
+    padding-right: 6em;
+    display: flex;
+    height: 110vh;
+}
+
+.largeImg {
+    height: 100%;
+    width: 45vw;
+    margin-right: 4em;
+}
+
+.image__title > p {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #111;
+    font-size: 2.8rem;
+    line-height: 1.14em;
+    letter-spacing: 0.025em;
+    margin: 25px 0;
+}
+
+.image_description > p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.65em;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-top: 0;
+}
+
+.quality__description {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}

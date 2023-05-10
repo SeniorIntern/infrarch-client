@@ -1,0 +1,69 @@
+header {
+    border-bottom: 0.1em solid lightgray;
+    background-color: #fff;
+    z-index: 100;
+    position: relative;
+    top: 0;
+    /* position: sticky; */
+}
+
+.header__contains {
+    position: relative;
+    padding: 1.7em 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.nav__options > ul {
+    gap: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn__design {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: black;
+}
+.btn__design:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+    transition: 300ms;
+}
+
+.nav__dropdown {
+    display: none;
+    position: absolute;
+    padding-top: 3.15em;
+    justify-content: space-evenly;
+}
+
+.nav__option:hover .nav__dropdown {
+    display: block;
+}
+
+.nav__drowdown__content {
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav__drowdown__content + .nav__drowdown__content {
+    padding-top: 1em;
+}
+.navLink {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+.nav__dropdown > ul {
+    background-color: rgb(255, 255, 255);
+    z-index: 99;
+    padding: 2em;
+    width: 18.5em;
+    border: 0.1em solid lightgray;
+}

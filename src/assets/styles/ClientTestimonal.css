@@ -1,0 +1,41 @@
+.title {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #111;
+    font-size: 4rem;
+    line-height: 1.14em;
+    letter-spacing: 0.025em;
+    margin: 25px 0;
+}
+
+.testimonals {
+    margin: 0 7vw;
+}
+
+.testimonalList {
+    display: flex;
+    row-gap: 1em;
+    flex-wrap: wrap;
+}
+
+.testimonal {
+    width: 24vw;
+}
+
+.testimonal > p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin: 0 0.6em;
+    line-height: 1.6em;
+    letter-spacing: 0.01em;
+    color: #121212d7;
+}
+
+.client {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1em;
+    letter-spacing: 0.25em;
+    color: #a2a2a2;
+    text-transform: uppercase;
+}

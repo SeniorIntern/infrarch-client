@@ -1,0 +1,17 @@
+.projectShowcase {
+    width: 83%;
+    margin: 5em auto;
+}
+.project__Showcase,
+.project__ShowcaseTitle {
+    margin: 0.5em 0;
+}
+.portfolio__card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.portfolio {
+    width: 83%;
+    margin: 0 auto;
+}

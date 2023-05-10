@@ -1,0 +1,60 @@
+.firstSection {
+    position: relative;
+    text-align: right;
+}
+
+.firstSection > img {
+    padding-right: 1em;
+    height: 81vh;
+    width: 70%;
+}
+
+.slider {
+    cursor: pointer;
+}
+
+.slider > img {
+    height: 2.5em;
+}
+
+.slider :hover {
+    transform: scale(115%);
+    transition: 0.2s ease-in;
+}
+
+.switch__ImageIcons {
+    display: flex;
+    gap: 2em;
+    align-items: flex-end;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.firsSection__floating__container {
+    padding: 2em 0;
+    position: absolute;
+    text-align: left;
+    gap: 1em;
+    left: 0;
+    width: 43em;
+    background-color: white;
+    display: flex;
+    top: 5em;
+}
+
+.switch__ImageInfo > span {
+    color: #2b2b2b;
+    opacity: 75%;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    line-height: 1em;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    display: block;
+}
+
+.switch__ImageInfo {
+    height: 21.5em;
+}
